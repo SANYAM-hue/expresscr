@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header,footer{
+        text-align: center;
+        background-color: aqua;
+        border: 0cqmax;
+        flex-wrap: wrap;
+        padding: 25px;
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .container 
+    {
+        display: flex;
+        justify-content: center;
+        color:black;
+        background-color: aquamarine;
+        padding: 20px;
+    }
+    .sidebar {
+        width: 25px;
+        background-color: aliceblue;
+        padding: 20px;
+    }
+    .main content 
+    {
+        background-color: aliceblue;
+        padding: 30px;
+        width: 70%;
+    }
+    @media (max-width:768px)
+    {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .sidebar,main-content {
+            width: 100%
+        }
+    }
+    @media (max-width: 480px)
+    {
+        .sidebar {
+            background-color: cyan;
+        }
+        .main-content 
+        {
+        background-color:lavender;
+        } 
+    }
+    
+</style>
+<body>
+    <h1> DOM Manipulation</h1>
+    <p id="text">click the button </p>
+
+    <button id="changeTextBtn">changeTextBtn</button>
+    <button id="changeColorBtn">changeBackground</button>
+    <script src="app.js"></script>
+    </body>
+    <!-- <header>
+        <nav>
+            <ul>
+                <li><a href='#about'>about</a></li>
+                <li><a href='#project'>project</a></li>
+                <li><a href='#contact'>contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p> i am a web developer with expertise in html,css and javascript.</p>
+        </section>
+
+        <section id="projects">
+            <h2>projects</h2>
+            <div class="project">
+                <h3>project 1</h3>
+                <p>Description of project 1</p>
+            </div>
+            <div class="project ">
+                <h3>project 2</h3>
+                <p>Description of project 2</p>
+            </div>
+            </section>
+            <section id="contact">
+                <h2>Contact me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required> -->
+
+                    <!-- <label for="email">Email:</label>
+                    <input type="email" id="email" name="Email" required>
+
+                    <label for="message">message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit"> send message</button>
+                </form>
+            </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 my profilio.All rights reserved.</p>
+    </footer>
+     -->
+<!-- </body> -->
+</html>
